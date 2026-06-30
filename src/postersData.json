@@ -1,0 +1,26 @@
+[
+  {
+    "id": "halloween-2026",
+    "title": "HALLOWEEN PARTY",
+    "subtitle": "万圣节狂欢夜",
+    "date": "24 October 6PM - 9PM",
+    "location": "UW Campus",
+    "tag": "#001"
+  },
+  {
+    "id": "sakura-photo",
+    "title": "SAKURA PHOTO CONTEST",
+    "subtitle": "樱的一瞬 摄影大赛",
+    "date": "Mar 22 - Apr 12",
+    "location": "Online / UW Quad",
+    "tag": "#002"
+  },
+  {
+    "id": "spring-festival",
+    "title": "新春快乐 FAN EVENT",
+    "subtitle": "2027 新春联欢",
+    "date": "Coming Jan.2027",
+    "location": "Seattle Downtown",
+    "tag": "#003"
+  }
+]

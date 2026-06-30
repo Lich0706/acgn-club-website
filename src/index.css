@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes tiltedScrollDown {
+  0% {
+    transform-origin: top right;
+    transform: rotate(14deg) translateY(-50%);
+  }
+  100% {
+    transform-origin: top right;
+    transform: rotate(14deg) translateY(0%);
+  }
+}
+
+@keyframes tiltedScrollUp {
+  0% {
+    transform-origin: top right;
+    transform: rotate(14deg) translateY(0%);
+  }
+  100% {
+    transform-origin: top right;
+    transform: rotate(14deg) translateY(-50%);
+  }
+}
+
+.animate-tilted-down {
+  animation: tiltedScrollDown 50s linear infinite !important;
+}
+
+.animate-tilted-up {
+  animation: tiltedScrollUp 50s linear infinite !important;
+}
+
+@keyframes continuousMarquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  animation: continuousMarquee 50s linear infinite !important;
+}
