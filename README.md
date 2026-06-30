@@ -1,16 +1,25 @@
-# React + Vite
+# ACGN CLUB AT UW — OFFICIAL WEBSITE 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> ── ANIME // COMICS // GAMES // NOVELS ──
+> A Community for ACGN fans @ University of Washington. 
+Upcoming Arknights Only Event Scheduled for January 2027.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ TECH STACK (技术栈)
 
-## React Compiler
+* **Frontend Framework**: React + Vite
+* **Styling**: Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 QUICK START (快速启动)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+确保你本地已经安装了 Node.js，然后运行以下命令：
+
+```bash
+# 安装依赖
+npm install
+
+# 启动本地开发服务器 (localhost:5173)
+npm run dev
